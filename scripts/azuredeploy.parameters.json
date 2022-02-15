@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Suffix": {
+            "value": "WSA"
+        },
+        "VirtualMachineAdminUsernameLinux": {
+            "value": "adminfabmedical"
+        },
+        "VirtualMachineAdminPublicKeyLinux": {
+            "value": "SHA256:p8yfcz6TSM/3UEc3N3SYG1k9dc4UxpPH+WMmyDveurM admin@fabmedical"
+        },
+        "CosmosLocation": {
+            "value": "westus2"
+        },
+        "CosmosLocationName": {
+            "value": "WEST US 2"
+        },
+        "CosmosPairedLocation": {
+            "value": "westcentralus"
+        },
+        "CosmosPairedLocationName": {
+            "value": "WEST CENTRAL US"
+        }
+    }
+}
